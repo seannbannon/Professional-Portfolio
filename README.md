@@ -1,2 +1,0 @@
-# Professional-Portfolio
-homework2

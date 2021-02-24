@@ -1,0 +1,67 @@
+body{
+    background-color:#fff;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-top: 0;
+   
+}
+
+#navbar{
+    background-color: indianred;
+    color: #fff;
+    padding-top: .25px;
+    padding-bottom: .25px;
+    padding-left: 10px;
+
+}
+
+#navbar h1{
+    float:left;
+    font-size: 30px;
+    padding-bottom: 30px;   display: inline-block;
+    
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    margin-right: 30px;
+    word-spacing: 18px;
+    text-align:right;
+
+}
+
+#navbar li{
+    display: inline;
+}
+
+#picture {
+    background-image: url('images/heaven.jpg');
+    background-position: center;
+    min-height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#picture h1{
+    font-size: 60px;
+    text-shadow: 3px 2px 1px green;
+    padding-left: 30px;
+    position: absolute;
+    bottom: 300px;
+    right: 40px;
+   
+    margin: 50px 50px 50px 50px;
+
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#main{
+    float: left;
+}
+
