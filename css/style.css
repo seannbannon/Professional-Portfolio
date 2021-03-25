@@ -7,34 +7,38 @@ body{
     margin-top: 0;
    
 }
-
-#navbar{
-    background-color: indianred;
-    color: #fff;
-    padding-top: .25px;
-    padding-bottom: .25px;
-    padding-left: 10px;
-
+header{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: coral;
+    color: white;
 }
 
-#navbar h1{
-    float:left;
-    font-size: 30px;
-    padding-bottom: 30px;   display: inline-block;
-    
-}
-#navbar ul{
-    padding: 0;
-    list-style: none;
-    margin-right: 30px;
-    word-spacing: 18px;
-    text-align:right;
-
+header h1{
+    display: inline-block;
 }
 
-#navbar li{
-    display: inline;
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
 }
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    word-spacing: 60px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 
 #picture {
     background-image: url('images/heaven.jpg');
