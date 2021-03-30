@@ -72,8 +72,11 @@ a{
     text-align: center;
 }
 
-.footer #info{
-    text-align:justify;
-    display: inline;
+ .info p{
+    text-align: justify;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
 
