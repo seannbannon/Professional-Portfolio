@@ -9,12 +9,13 @@ body{
 }
 header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: coral;
+    background-color:indianred;
     color: white;
 }
 
 header h1{
     display: inline-block;
+    padding-left: 12px;
 }
 
 header nav{
@@ -72,7 +73,7 @@ a{
 }
 
 .footer #info{
-    text-align: center;
-    display: inline-block;
+    text-align:justify;
+    display: inline;
 }
 
