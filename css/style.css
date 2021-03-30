@@ -9,7 +9,7 @@ body{
 }
 header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:indianred;
+    background-color:blueviolet;
     color: white;
 }
 
@@ -47,6 +47,8 @@ a{
     margin-bottom: 30px;
     text-align: center;
 }
+
+
 #picture h1{
     font-size: 60px;
     text-shadow: 3px 2px 1px green;
@@ -54,14 +56,21 @@ a{
     position: absolute;
     bottom: 300px;
     right: 40px;
-   
     margin: 50px 50px 50px 50px;
-
 }
 
+.about {
+    border: solid black;
+    background-color: crimson;
+    float: right;
+    padding: 20px;
+    
+}
 
-#main{
-    float: left;
+.projects {
+    border: solid black;
+    background-color: crimson;
+    padding: 20px;
 }
 
 .footer {
@@ -70,6 +79,8 @@ a{
     margin: auto;
     width: 50%;
     text-align: center;
+    border: solid black;
+    background-color: crimson;
 }
 
  .info p{
@@ -78,5 +89,3 @@ a{
     padding-left: 30px;
     padding-right: 30px;
 }
-
-
