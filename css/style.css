@@ -5,8 +5,8 @@ body{
     font-size: 16px;
     line-height: 1.6em;
     margin-top: 0;
-   
 }
+
 header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:blueviolet;
@@ -39,7 +39,6 @@ a{
     text-decoration: none;
 }
 
-
 #picture {
     background-image: url('images/heaven.jpg');
     background-position: center;
@@ -47,7 +46,6 @@ a{
     margin-bottom: 30px;
     text-align: center;
 }
-
 
 #picture h1{
     font-size: 60px;
@@ -60,17 +58,26 @@ a{
 }
 
 .about {
-    border: solid black;
     background-color: crimson;
-    float: right;
     padding: 20px;
-    
+    width: 22%;
+}
+
+.about p {
+    border: solid black;
+    position: static;
+    width: 300px;
 }
 
 .projects {
-    border: solid black;
     background-color: crimson;
-    padding: 20px;
+    width: 50%;
+    padding:15px;
+}
+
+.projects p{
+    border: solid black;
+    width: 500px;
 }
 
 .footer {
