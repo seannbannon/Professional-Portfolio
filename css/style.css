@@ -76,8 +76,16 @@ a{
     display: flex;
     flex-direction: column;
 }
+.projects .vintage{
+    padding-left: 20px;
+}
 
 .projects p{
+    border: solid black;
+    width: 200px;
+}
+
+.projects .svintage{
     border: solid black;
     width: 500px;
 }
