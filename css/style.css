@@ -42,7 +42,7 @@ a{
 #picture {
     background-image: url('images/heaven.jpg');
     background-position: center;
-    min-height: 400px;
+    min-height: 450px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -57,10 +57,18 @@ a{
     margin: 50px 50px 50px 50px;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
 .about {
     background-color: crimson;
     padding: 20px;
-    width: 22%;
+    width: 24%;
+    margin-right: 5%;
+    margin-left: 2%;
 }
 
 .about p {
@@ -71,13 +79,25 @@ a{
 
 .projects {
     background-color: crimson;
-    width: 50%;
-    padding:15px;
+    width: 70%;
+    overflow: auto;
+    height: 600px;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .projects p{
     border: solid black;
     width: 500px;
+}
+
+.link {
+    display: flex;
+}
+
+.pw {
+    margin: 20px;
 }
 
 .footer {
