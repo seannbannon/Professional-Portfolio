@@ -1,96 +1,142 @@
-# 02 Advanced CSS: Portfolio
+# Unit 08 Project 1 Homework: Professional Materials
 
-## Your Task
+Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer-competitive.
 
-Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+If you are opting out of career services, this is _still a required assignment_. Part of being a web developer means being a part of a community. Having a place to share your projects is _necessary_ if you're applying for jobs, but it's also _critical_ on your journey as a developer.
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+## Requirements
 
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+* Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
+* Submit an updated resume
 
+* Submit an updated LinkedIn profile
 
-## User Story
+## Grading
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+| Requirement      | Weight |
+| ---------------- | ------ |
+| Portfolio        | 40%    |
+| GitHub Profile   | 40%    |
+| Resume           | 10%    |
+| LinkedIn Profile | 10%    |
 
+## Instructions
 
-## Acceptance Criteria
+1. [Updated Portfolio](#updated-portfolio)
+2. [GitHub Profile](#updated-github-profile)
+3. [Updated Resume](#updated-resume)
+4. [Updated LinkedIn](#updated-linkedin)
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+## Updated Portfolio
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+💁 Need help updating your Portfolio? Check out the [Career Services milestone resources for online presence](https://mycareerspot.org/onlinepresence).
 
+Your updated portfolio should:
 
-## Mock-Up
+1. Display your full name, email, and phone number
 
-The following animation shows the web application's appearance and functionality:
+2. Have links to your GitHub profile and LinkedIn profile
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+3. Have a link to a downloadable PDF of your resume
 
+4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
 
-## Grading Requirements
+    * Project title
 
-This homework is graded based on the following criteria: 
+    * Link to the deployed version
 
-### Technical Acceptance Criteria: 40%
+    * Link to the GitHub repository
 
-* Satisfies all of the above acceptance criteria.
+    * Screenshot of the deployed application
 
-### Deployment: 32%
+5. Have a polished, mobile-responsive user interface.
 
-* Application deployed at live URL.
+### Design
 
-* Application loads with no errors.
+Unfortunately, this is where it gets a little bit subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
 
-* Application GitHub URL submitted.
+* Mobile-first design
 
-* GitHub repository contains application code.
+* Choose a color palette for your site so it doesn't just look like
+  the default bootstrap theme or an unstyled HTML site.
 
-### Application Quality: 15%
+* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+## Updated GitHub Profile
 
-### Repository Quality: 13%
+Employers (and potential collaborators) _will_ look at your GitHub profile, so put your best face forward. 
 
-* Repository has a unique name.
+Your GitHub profile must contain at least the following items:
 
-* Repository follows best practices for file structure and naming conventions.
+1. Professional profile picture
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+   * A photo or an image other than the default Github identicon. (a semi-professional to professional photo or an avatar photo are preferred)
 
-* Repository contains multiple descriptive commit messages.
+2. Biography
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+3. Your current location
 
-## Review
+4. Email address
 
-You are required to submit BOTH of the following for review:
+5. Link to your deployed portfolio
 
-* The URL of the deployed application.
+6. At least 2 pinned repositories:
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+   * Navigate to [GitHub](https://github.com/) and go to your profile.
 
-- - -
+   * Click "Customize your pins"
+
+   * Click the checkboxes for your project and 2-3 homework assignments that you would like to share
+
+7. Follow a few of your classmates. They are the beginning of your professional network and being a developer is as much about being a part of the community as it is writing code.
+
+8. README files. Every pinned project should contain a README file with:
+
+   * Title of app
+   * Live link to deployed app
+   * List of technologies used
+   * 1-2 sentences explaining what the app is
+   * 2-3 Screenshots / gifs of the app
+   * License (usually MIT)
+   * Contact information for you and any collaborators
+
+9. Commit history. Every pinned repository should have at least 20 commits.
+
+### 3. Updated Resume
+
+💁 Need help building a resume? Check out the [Career Services milestone resources](https://mycareerspot.org/resume).
+
+Submit a clear, concise, and compelling resume, tailored to the type of job you’re looking for.
+
+Your resume should include:
+
+* a heading with your name, phone number, professional email address, links to LinkedIn, portfolio and GitHub
+
+* a technical skills section, with all programming languages and technologies listed
+
+* 3 of your strongest projects/homework assignments with brief description, languages used, and URL
+
+### 4. Updated LinkedIn
+
+💁 Need help updating your LinkedIn? Check out the [Career Services milestone resources for online presence](https://mycareerspot.org/onlinepresence).
+
+Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio.
+
+### ⭐ 5. For Job-Seeking Students (BONUS)
+
+If you are a job-seeking student, then getting yourself marked as employer-ready is an important step to take because you'll get:
+
+* added to our employer referral list, where we'll help match you with employers for interviews
+
+* exclusive access to workshops for employer-ready students
+
+* a statistically higher success rate in your job search
+
+So if you're going to be looking for a job at the end of your boot camp, go ahead and submit these updated items to your Career Materials Advisor (formerly Profile Coach) via BootCampSpot.
+
+---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
